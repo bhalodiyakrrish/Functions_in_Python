@@ -1,0 +1,15 @@
+def returnValueFunction(n):
+    return n*2
+def main():
+    t=int(input())
+    while(t>0):
+        n=int(input())
+        print(returnValueFunction(n))
+        t-=1
+if __name__ == "__main__": 
+    main()
+
+# Input: 
+# 2
+# Output: 
+# 4
