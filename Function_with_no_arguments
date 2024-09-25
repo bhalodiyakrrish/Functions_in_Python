@@ -1,0 +1,14 @@
+def helloFunction():
+    print("Hello")
+def main():
+    t=int(input())
+    while(t>0):    
+        helloFunction()
+        t-=1
+if __name__ == "__main__": 
+    main()
+
+# Input: 
+# No Input
+# Output: 
+# Hello
